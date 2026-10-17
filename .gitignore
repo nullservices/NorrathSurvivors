@@ -1,0 +1,18 @@
+# Nuxt and generated output
+.nuxt/
+.output/
+node_modules/
+*.log
+*.tmp
+
+# EverQuest art and converted game data are local only
+/public/eq-assets/
+/public/eq-effects/
+/public/gamedata/
+/asset_tools/
+.env
+
+# Preserved Godot prototype and its private local models
+/godot-prototype/.godot/
+/godot-prototype/assets/local_eq/**
+!/godot-prototype/assets/local_eq/README.md
